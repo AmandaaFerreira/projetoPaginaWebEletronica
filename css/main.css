@@ -11,7 +11,8 @@ ul {
 .menu-principal {
     width: 100%;
     background-color: #256D85;
-    height: 60px;
+    height: 80px;
+
 }
 
 main,
@@ -23,7 +24,7 @@ main,
 
 .logo {
     float: left;
-    padding: 3px;
+    padding: 6px;
     width: 70%;
 }
 
@@ -44,11 +45,13 @@ main,
     width: 980px;
     margin: 0 auto;
     padding: 16px;
+    color: #2B4865;
 }
 
 .menu-urls {
     height: 80px;
     border-bottom: 3px solid #efefef;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu ul li {
@@ -59,16 +62,16 @@ main,
 }
 
 .menu ul li:hover {
-    border-bottom: 3px solid #00bac6;
+    border-bottom: 3px solid #c0c0c0;
 }
 
 .menu ul li a:hover {
-    color: #00bac6;
+    color: #c0c0c0;
 
 }
 
 .menu ul li a {
-    color: #8b8b8b;
+    color: #2B4865;
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
@@ -77,12 +80,14 @@ main,
 .menu {
     width: 70%;
     float: left;
+    color: #2B4865
 }
 
 .busca {
     text-align: center;
     width: 30%;
     float: right;
+    color: #2B4865
 }
 
 .busca input {
@@ -93,13 +98,14 @@ main,
     width: 190px;
     margin-top: 10px;
     background-position: 96%;
-    border: 1px solid #d6d6d6;
+    border: 1px solid #2B4865;
 }
 
 .col-100 {
     width: 100%;
     float: left;
     position: relative;
+    color: #2B4865
 }
 
 button.slick-prev {
@@ -113,6 +119,7 @@ button.slick-prev {
     background-image: url(../img/anterior.png);
     top: 35%;
     left: 14%;
+
 }
 
 button.slick-next {
@@ -130,6 +137,7 @@ button.slick-next {
 
 .slick-list {
     width: 100% !important;
+
 }
 
 .slick-initialized {
@@ -156,7 +164,7 @@ button.slick-next {
 }
 
 li.slick-active button {
-    background: #00bac6;
+    background: #c0c0c0;
 }
 
 .slick-dots li {
@@ -166,6 +174,7 @@ li.slick-active button {
 
 .texto-destaque {
     text-align: center;
+
 }
 
 .texto-destaque strong {
@@ -175,12 +184,14 @@ li.slick-active button {
 .texto-destaque h1 {
     text-transform: uppercase;
     font-size: 30px;
-    color: #818181;
+    color: #2B4865;
 }
 
 .texto-destaque p {
     font-size: 15px;
-    color: #9a9a9a;
+    color: #2B4865;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .col-3 {
@@ -199,28 +210,35 @@ li.slick-active button {
 }
 
 .bloco-imagem {
-    height: 300px;
+    height: 350px;
     border: 1px solid #c5c5c5;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     margin-left: 10px;
 }
 
 .bloco-imagem b,
 p {
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+
 }
 
 .bloco-texto {
     margin-top: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2B4865;
 }
 
 h3 {
     font-weight: normal !important;
+
 }
 
 .bloco-imagens-texto {
-    background-color: #eeeeee;
+    background-color: #f0f8ff;
+
 }
 
 .bloco-imagens-texto:before {
@@ -232,14 +250,16 @@ h3 {
     background-image: url('../img/setinha.png');
     background-repeat: no-repeat;
     background-position: center;
+
 }
 
 .bloco-imagens-texto:after {
     width: 100%;
     display: inline-block;
     content: '';
-    height: 70px;
-    background: #eeeeee;
+    height: 80px;
+    background: #c0c0c0;
+
 }
 
 .col-4 {
@@ -262,6 +282,7 @@ h3 {
 
 .bloco-logos {
     height: 170px;
+
 }
 
 .bloco-logos img {
@@ -274,13 +295,12 @@ h3 {
 
 .footer {
     background-image: url('../img/footer.png');
-    color: #ffffff;
+    color: #000000;
 }
 
 .footer-2 {
     background-image: url('../img/footer2.png');
-    color: #c1c1c1;
-    height: 90px;
+    color: #000000
 }
 
 
@@ -293,20 +313,6 @@ h3 {
     padding: 10px;
 }
 
-.clock {
-    color: #898989 !important;
-}
-
-.clock:before {
-    content: '';
-    width: 15px;
-    height: 15px;
-    display: inline-block;
-    background-image: url('../img/clock.png');
-    float: left;
-    background-repeat: no-repeat;
-    padding-left: 5px;
-}
 
 .local:before,
 .emailico:before,
@@ -326,6 +332,7 @@ h3 {
 
 .emailico:before {
     background-image: url('../img/emailico.png');
+
 }
 
 .telefoneico:before {
