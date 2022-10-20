@@ -222,7 +222,6 @@ p {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 
-
 }
 
 .bloco-texto {
@@ -247,7 +246,7 @@ h3 {
     content: '';
     height: 52px;
     background: #ffffff;
-    background-image: url('../img/setinha.png');
+
     background-repeat: no-repeat;
     background-position: center;
 
@@ -258,7 +257,7 @@ h3 {
     display: inline-block;
     content: '';
     height: 80px;
-    background: #c0c0c0;
+    background: #D0E2E7;
 
 }
 
@@ -273,16 +272,18 @@ h3 {
     margin: 0 auto;
     padding-top: 1em;
     vertical-align: middle;
+
 }
 
 .col-4 img:hover {
     margin-top: 10px !important;
     position: relative !important;
+
 }
 
 .bloco-logos {
+    background-color: #D7ECF1;
     height: 170px;
-
 }
 
 .bloco-logos img {
