@@ -29,15 +29,17 @@ main,
 }
 
 .redes-sociais ul li {
-    margin-left: 25px;
+    margin-left: 20px;
     display: inline-block;
     float: left;
     list-style: none;
+
 }
 
 .redes-sociais {
     width: 25%;
     float: right;
+
 }
 
 .header-2 {
@@ -62,11 +64,11 @@ main,
 }
 
 .menu ul li:hover {
-    border-bottom: 3px solid #c0c0c0;
+    border-bottom: 3px solid #2B4865;
 }
 
 .menu ul li a:hover {
-    color: #c0c0c0;
+    color: #1bd2d8;
 
 }
 
@@ -236,7 +238,7 @@ h3 {
 }
 
 .bloco-imagens-texto {
-    background-color: #f0f8ff;
+    background-color: #e4ebf0;
 
 }
 
@@ -245,7 +247,7 @@ h3 {
     display: inline-block;
     content: '';
     height: 52px;
-    background: #ffffff;
+    background: #e4ebf0;
 
     background-repeat: no-repeat;
     background-position: center;
@@ -257,7 +259,7 @@ h3 {
     display: inline-block;
     content: '';
     height: 80px;
-    background: #D0E2E7;
+    background: #e4ebf0;
 
 }
 
@@ -282,7 +284,7 @@ h3 {
 }
 
 .bloco-logos {
-    background-color: #D7ECF1;
+    background-color: #D0E2E7;
     height: 170px;
 }
 
@@ -311,7 +313,7 @@ h3 {
 }
 
 .footer-2 p {
-    padding: 10px;
+    padding: 1px;
 }
 
 
