@@ -11,7 +11,8 @@ ul {
 .menu-principal {
     width: 100%;
     background-color: #256D85;
-    height: 80px;
+    height: 120px;
+    padding-top: 15px;
 
 }
 
@@ -341,3 +342,5 @@ h3 {
 .telefoneico:before {
     background-image: url('../img/telefoneico.png');
 }
+
+
