@@ -52,4 +52,26 @@
     margin-top: 10px;
 }
 
+footer {
+    background-color: #256D85;
+    text-align:center;
+    background-image: url(../img/bg.jpg);
+    padding: 15px 0px;
+}
 
+.redes a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.redes img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    opacity: 60%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}

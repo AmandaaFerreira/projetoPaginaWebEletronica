@@ -25,14 +25,13 @@ main,
 
 .logo {
     float: left;
-    padding: 6px;
+    padding: 20px;
     width: 70%;
 }
 
 .redes-sociais ul li {
     margin-left: 20px;
     display: inline-block;
-    float: left;
     list-style: none;
 
 }
@@ -69,12 +68,12 @@ main,
 }
 
 .menu ul li a:hover {
-    color: #1bd2d8;
+    color: #6fb0f1;
 
 }
 
 .menu ul li a {
-    color: #2B4865;
+    color: black;
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
@@ -83,14 +82,14 @@ main,
 .menu {
     width: 70%;
     float: left;
-    color: #2B4865
+    color: black;
 }
 
 .busca {
     text-align: center;
     width: 30%;
     float: right;
-    color: #2B4865
+    color: black;
 }
 
 .busca input {
@@ -101,14 +100,14 @@ main,
     width: 190px;
     margin-top: 10px;
     background-position: 96%;
-    border: 1px solid #2B4865;
+    border: 1px solid black;
 }
 
 .col-100 {
     width: 100%;
     float: left;
     position: relative;
-    color: #2B4865
+    color:black;
 }
 
 button.slick-prev {
@@ -181,18 +180,18 @@ li.slick-active button {
 }
 
 .texto-destaque strong {
-    color: #646464;
+    color:black;
 }
 
 .texto-destaque h1 {
     text-transform: uppercase;
     font-size: 30px;
-    color: #2B4865;
+    color:black;
 }
 
 .texto-destaque p {
     font-size: 15px;
-    color: #2B4865;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -214,7 +213,7 @@ li.slick-active button {
 
 .bloco-imagem {
     height: 350px;
-    border: 1px solid #c5c5c5;
+    border: 1px;
     padding-top: 15px;
     padding-bottom: 10px;
     margin-left: 10px;
@@ -230,7 +229,7 @@ p {
 .bloco-texto {
     margin-top: 3em;
     font-family: Arial, Helvetica, sans-serif;
-    color: #2B4865;
+    color:black;
 }
 
 h3 {
@@ -239,7 +238,8 @@ h3 {
 }
 
 .bloco-imagens-texto {
-    background-color: #e4ebf0;
+
+    background: linear-gradient(#ebf0e4,#6fb0f1);
 
 }
 
@@ -248,8 +248,7 @@ h3 {
     display: inline-block;
     content: '';
     height: 52px;
-    background: #e4ebf0;
-
+    background: linear-gradient(#ebf0e4 #6fb0f1);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -260,7 +259,7 @@ h3 {
     display: inline-block;
     content: '';
     height: 80px;
-    background: #e4ebf0;
+    background: linear-gradient(#6fb0f1 #ebf0e4);
 
 }
 
@@ -285,7 +284,7 @@ h3 {
 }
 
 .bloco-logos {
-    background-color: #D0E2E7;
+    background: linear-gradient(#6fb0f1,#ebf0e4);
     height: 170px;
 }
 
@@ -298,13 +297,11 @@ h3 {
 }
 
 .footer {
-    background-image: url('../img/footer.png');
-    color: #000000;
+    background-color:gray;
 }
 
 .footer-2 {
-    background-image: url('../img/footer2.png');
-    color: #000000
+    background-color:gray;
 }
 
 
@@ -319,7 +316,7 @@ h3 {
 
 
 .local:before,
-.emailico:before,
+.email:before,
 .telefoneico:before {
     content: '';
     width: 17px;
@@ -335,7 +332,7 @@ h3 {
 }
 
 .emailico:before {
-    background-image: url('../img/emailico.png');
+    background-image: url('../img/email.png');
 
 }
 
