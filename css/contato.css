@@ -1,10 +1,10 @@
 
-form {
+.form {
     width: 940px;
     margin: 0 auto;
 }
 
-form p {
+.form p {
     text-align: left;
     font-size: 14px;
     font-style: italic;
@@ -12,7 +12,7 @@ form p {
 }
 
 form label,
-form legend {
+.form legend {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
@@ -26,28 +26,29 @@ form legend {
     font-family: 'Montserrat', sans-serif;
 }
 
-textarea {
+.textarea {
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
 }
 
-legend {
+.legend {
     padding: 15px 0 5px;
 }
 
-select {
+.select {
     width: 10%;
     text-align: center;
 }
 
 .checkbox {
     margin: 20px 0;
+  
 }
 
 .enviar {
     width: 40%;
     padding: 15px 0;
-    background-color: #256D85;
+    background-color: black;
     margin: 10px auto;
     color: white;
     font-weight: bold;
@@ -60,7 +61,7 @@ select {
 
 .enviar:hover {
     transition: 0.5s;
-    background-color: #be9610;
+    background-color: grey;
     transform: scale(1.1);
     
 }

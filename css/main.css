@@ -10,8 +10,8 @@ ul {
 
 .menu-principal {
     width: 100%;
-    background-color: #256D85;
-    height: 120px;
+    background-color: black;
+    height: 140px;
     padding-top: 15px;
 
 }
@@ -25,21 +25,14 @@ main,
 
 .logo {
     float: left;
-    padding: 20px;
+    padding: 2px;
     width: 70%;
-}
-
-.redes-sociais ul li {
-    margin-left: 20px;
-    display: inline-block;
-    list-style: none;
-
 }
 
 .redes-sociais {
     width: 25%;
-    float: right;
-
+    float:right;
+ 
 }
 
 .header-2 {
@@ -52,7 +45,7 @@ main,
 
 .menu-urls {
     height: 80px;
-    border-bottom: 3px solid #efefef;
+    border-bottom: 3px solid white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -107,7 +100,7 @@ main,
     width: 100%;
     float: left;
     position: relative;
-    color:black;
+    color:white;
 }
 
 button.slick-prev {
@@ -178,6 +171,9 @@ li.slick-active button {
     text-align: center;
 
 }
+.titulo-principal-maps{
+    color:black;
+}
 
 .texto-destaque strong {
     color:black;
@@ -239,7 +235,7 @@ h3 {
 
 .bloco-imagens-texto {
 
-    background: linear-gradient(#ebf0e4,#6fb0f1);
+    background: linear-gradient(#ebf0e4,#949aa1);
 
 }
 
@@ -248,7 +244,7 @@ h3 {
     display: inline-block;
     content: '';
     height: 52px;
-    background: linear-gradient(#ebf0e4 #6fb0f1);
+    background: linear-gradient(#ebf0e4 #949aa1);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -259,7 +255,7 @@ h3 {
     display: inline-block;
     content: '';
     height: 80px;
-    background: linear-gradient(#6fb0f1 #ebf0e4);
+    background: linear-gradient(#949aa1 #ebf0e4);
 
 }
 
@@ -283,27 +279,18 @@ h3 {
 
 }
 
-.bloco-logos {
-    background: linear-gradient(#6fb0f1,#ebf0e4);
-    height: 170px;
-}
-
-.bloco-logos img {
-    margin-top: 20px;
-}
-
 .footer h3 {
     text-align: left;
 }
 
 .footer {
-    background-color:gray;
+    background-color:black;
 }
 
 .footer-2 {
-    background-color:gray;
+    background-color: black;
+    
 }
-
 
 .footer p {
     width: 90%;
@@ -315,29 +302,9 @@ h3 {
 }
 
 
-.local:before,
-.email:before,
-.telefoneico:before {
-    content: '';
-    width: 17px;
-    height: 24px;
-    display: inline-block;
-    float: left;
-    background-repeat: no-repeat;
-    padding-left: 5px;
-}
 
-.local:before {
-    background-image: url('../img/local.png');
-}
 
-.emailico:before {
-    background-image: url('../img/email.png');
 
-}
 
-.telefoneico:before {
-    background-image: url('../img/telefoneico.png');
-}
 
 
